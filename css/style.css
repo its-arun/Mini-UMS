@@ -1,0 +1,209 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    color : #FFF;
+    
+}
+
+
+div h3 span{
+     color : #FFF;
+     font-size:14px;
+}
+
+div span {
+     font-weight: 200;
+}
+
+h1{
+     font-weight: 200;
+}
+
+.profile_box{
+    background: #36EEFB; /* Old browsers */
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjZjMyZDI3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjZmY2YjQ1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(45deg,  #36EEFB 5%, #07A9B8 99%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(5%,#36EEFB), color-stop(99%,#07A9B8)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* IE10+ */
+    background: linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36EEFB', endColorstr='#07A9B8',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+    
+    width:35%;
+   /* height:70%; */
+    position:absolute;
+    top:5%;
+    left:32.5%;
+    
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+}
+
+@media (max-width: 767px) {
+    .profile_box{
+        background: #36EEFB; /* Old browsers */
+        /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+        background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjUlIiBzdG9wLWNvbG9yPSIjZjMyZDI3IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOTklIiBzdG9wLWNvbG9yPSIjZmY2YjQ1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+        background: -moz-linear-gradient(45deg,  #36EEFB 5%, #07A9B8 99%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(5%,#36EEFB), color-stop(99%,#07A9B8)); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* IE10+ */
+        background: linear-gradient(45deg,  #36EEFB 5%,#07A9B8 99%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36EEFB', endColorstr='#07A9B8',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
+        width:90%;
+        height:80%;
+        position:absolute;
+        top:0%;
+        left:0%;
+        
+        -webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
+    }
+}
+
+.image-circle{
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    border: 4px solid #FFF;
+    margin: 10px;
+}
+
+.tile{
+    background-color:#07A9B8;
+    height: 80px;
+    cursor:pointer;
+}
+
+.tile:hover {
+    background-color:#2CB2BF;
+    height: 80px;
+    cursor:pointer;
+}
+
+.longtile{
+    background-color:#07A9B8;
+    height: 180px;
+    cursor:pointer;
+	text-align: left;
+}
+
+.longtile:hover {
+    background-color:#2CB2BF;
+    height: 180px;
+    cursor:pointer;
+	text-align: left;
+}
+
+.profile_control{
+    background-color:#FFF;
+    padding:10px;
+}
+
+.control {
+    color:#000;
+    margin:10px;
+}
+
+.label {
+    color: #EB4F26;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.outter{
+    padding: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.29);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#mydiv {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-height: 500px;
+	height:200%;
+	z-index:1000;
+	background-color: #191F26;
+	opacity: .8;
+}
+
+.ajax-loader {
+	position: fixed;
+	left: 25%;
+	top: 20%;
+	margin-left: -50px;
+	margin-top: -50px; 
+	display: block;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+	height:40px;
+    border: 1px solid #999;
+    background: #fff;
+	border-radius: 8px;
+	text-align: center;
+	color: grey;
+}
+.center {
+	position: absolute;
+    top: 20%;
+}
+.center img {
+	max-width: 100%;
+	height: auto;
+}
+div h4 span{
+     color : #FFF;
+     font-size:14px;
+}
+/* Floating button */
+.mfb-component--br {
+  box-sizing: border-box;
+  margin: 25px;
+  position: fixed;
+  white-space: nowrap;
+  z-index: 30;
+  padding-left: 0;
+  list-style: none; 
+ }
+.mfb-component--br *,.mfb-component--br *:after {
+    box-sizing: inherit;
+}
+.mfb-component--br {
+  right: 0;
+  bottom: 0; }
+.mfb-component__button--main, .mfb-component__button--child {
+  background-color: #36EEFB;
+  display: inline-block;
+  position: relative;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  position: relative;
+  -webkit-user-drag: none;
+  font-weight: bold;
+  color: #f1f1f1; }
+.mfb-component__button--main {
+  height: 56px;
+  width: 56px;
+  z-index: 20; }
+.mfb-component__icon, .mfb-component__main-icon--active,
+.mfb-component__main-icon--resting, .mfb-component__child-icon {
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  line-height: 56px;
+  width: 100%; }
