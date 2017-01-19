@@ -5,6 +5,7 @@
     <title>Mini UMS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/style.css" rel="stylesheet" media="screen">
+	<link href="css/mfb.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <script src="js/jquery-2.1.4.min.js"></script>
@@ -13,11 +14,31 @@
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,200' rel='stylesheet' type='text/css'>
 </head>
 <body style="background-color: #2B2B2B;">
-	<ul id="menu" class="mfb-component--br">
+	<ul id="menu" class="mfb-component--br mfb-zoomin" data-mfb-toggle="hover">
       <li class="mfb-component__wrap">
-        <a href="index.html" class="mfb-component__button--main">
-          <i class="mfb-component__main-icon--resting ion-home"></i>
+        <a href="#" class="mfb-component__button--main">
+          <i class="mfb-component__main-icon--resting ion-plus-round"></i>
+          <i class="mfb-component__main-icon--active ion-close-round"></i>
         </a>
+        <ul class="mfb-component__list">
+          <li>
+            <a href="https://github.com/its-arun/Mini-UMS-App" data-mfb-label="View on Github" class="mfb-component__button--child" target="_blank">
+              <i class="mfb-component__child-icon ion-social-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/its-arun" data-mfb-label="Follow me on Github" class="mfb-component__button--child" target="_blank">
+              <i class="mfb-component__child-icon ion-social-octocat"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.facebook.com/tech.arun"
+               data-mfb-label="I'm on Facebook" class="mfb-component__button--child" target="_blank">
+              <i class="mfb-component__child-icon ion-social-facebook"></i>
+            </a>
+          </li>
+        </ul>
       </li>
     </ul>
 <div id="mydiv">
