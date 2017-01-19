@@ -136,6 +136,7 @@ box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.54);
 }
 
 .ajax-loader {
+	width: 400px;
 	position: fixed;
 	left: 25%;
 	top: 20%;
