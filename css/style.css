@@ -154,6 +154,7 @@ input {
 	border-radius: 8px;
 	text-align: center;
 	color: grey;
+	font-size: 18px;
 }
 .center {
 	position: absolute;
@@ -208,9 +209,14 @@ div h4 span{
   text-align: center;
   line-height: 56px;
   width: 100%; }
-  a{
-	  color: white;
-  }
-  a:visited{
-	  color: white;
-  }
+.button {
+    background-color: #07A9B8;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	margin-left: 30%;
+}
