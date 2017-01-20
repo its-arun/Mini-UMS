@@ -208,3 +208,9 @@ div h4 span{
   text-align: center;
   line-height: 56px;
   width: 100%; }
+  a{
+	  color: white;
+  }
+  a:visited{
+	  color: white;
+  }
